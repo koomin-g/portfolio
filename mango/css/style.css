@@ -1,0 +1,642 @@
+/************* main *************/
+
+/* visual */
+
+/* html, body{
+    height: 100%;
+} */
+
+#wrapper{
+    overflow: hidden;
+}
+
+
+#section1{
+    position: relative;
+    transform: translateY(110px);
+    width: 100%;
+    height: 100%;
+}
+
+#section1>img{
+    object-fit: cover;
+}
+
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#section1 .swiper-slide img{
+    width: 100%;
+}
+
+.bn1{
+    --swiper-theme-color: #fff;
+}
+
+/* #inner{
+    margin: 0 260px 0;
+} */
+
+
+#section2{
+    margin: 210px auto 0;
+    width: 1400px;
+    height: 250px;
+    background: url(../img/event_bg.jpg) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+/* #section2 .title{
+    width:100%; 
+} */
+
+#section2 .title text{
+    font-size: 4.5em;
+    font-family: "Staatliches", cursive;
+    text-align: center;
+    fill:#333;
+    font-weight: 500;
+    padding-top: 70px;
+    cursor: pointer;
+}
+
+
+.text-effect1{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Staatliches", cursive;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.text-effect1 span {
+    
+    color:  rgb(33, 75, 62), transparent;
+    font-size: 3em;
+    text-shadow: 
+    0 0 1px rgba(204, 208, 212, 0.9), 
+    0 -2px 1px rgba(145, 142, 142, 0.3), 
+    0 -2px 1px rgba(138, 134, 134, 0.1), 
+    0 -3px 2px rgba(107, 100, 100, 0.5);
+    display: inline-block;
+    animation: animate 0.5s ease-in-out infinite alternate;
+    margin-top: 150px;
+}
+
+
+.text-effect1 span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.text-effect1 span:nth-child(3) {
+    animation-delay: 0.45s;
+}
+
+.text-effect1 span:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.text-effect1 span:nth-child(1) {
+    animation-delay: 0.15s;
+}
+
+
+.text-effect2{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Staatliches", cursive;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.text-effect2 span {
+    
+    color:  rgb(33, 75, 62), transparent;
+    font-size: 3em;
+    text-shadow: 
+    0 0 1px rgba(204, 208, 212, 0.9), 
+    0 -2px 1px rgba(145, 142, 142, 0.3), 
+    0 -2px 1px rgba(138, 134, 134, 0.1), 
+    0 -3px 2px rgba(107, 100, 100, 0.5);
+    display: inline-block;
+    animation: animate 0.5s ease-in-out infinite alternate;
+    margin-top: 150px;
+}
+
+
+.text-effect2 span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.text-effect2 span:nth-child(3) {
+    animation-delay: 0.45s;
+}
+
+.text-effect2 span:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.text-effect2 span:nth-child(1) {
+    animation-delay: 0.15s;
+}
+
+
+.text-effect3{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Staatliches", cursive;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.text-effect3 span {
+    
+    color:  rgb(33, 75, 62), transparent;
+    font-size: 4em;
+    text-shadow: 
+    0 0 1px rgba(204, 208, 212, 0.9), 
+    0 -2px 1px rgba(145, 142, 142, 0.3), 
+    0 -2px 1px rgba(138, 134, 134, 0.1), 
+    0 -3px 2px rgba(107, 100, 100, 0.5);
+    display: inline-block;
+    animation: animate 0.5s ease-in-out infinite alternate;
+    margin-top: 150px;
+}
+
+.text-effec3 span:nth-child(8) {
+    animation-delay: 1.3s;
+}
+
+.text-effec3 span:nth-child(7) {
+    animation-delay: 1.05s;
+}
+
+.text-effect3 span:nth-child(6) {
+    animation-delay: 0.9s;
+}
+
+.text-effect3 span:nth-child(5) {
+    animation-delay: 0.75s;
+}
+
+.text-effect3 span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.text-effect3 span:nth-child(3) {
+    animation-delay: 0.45s;
+}
+
+.text-effect3 span:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.text-effect3 span:nth-child(1) {
+    animation-delay: 0.15s;
+}
+
+@keyframes animate {
+    to {
+    text-shadow: 
+    0 0 2px rgba(111, 113, 116, 0.2),
+    0 0 3px rgba(0, 0, 0, 0.02), 
+    0 0 0 rgba(0, 0, 0, 0), 
+    0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+@media only screen and (max-width: 990px) {
+    .text-effect span {
+    font-size: 60px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .text-effect span {
+    font-size: 50px;
+    }
+}
+@media only screen and (max-width: 479px) {
+    .text-effect span {
+    font-size: 55px;
+    }
+}
+@media only screen and (max-width: 359px) {
+    .text-effect span {
+    font-size: 40px;
+    }
+}
+
+/* #section2 .title:hover {
+    transform: scale(1.1);
+    transition: transform 0.8s;
+}  */
+
+/* .title{
+    font-size: 2.5em;
+    text-align: center;
+    color: #333;
+    font-weight: 500;
+    padding-top: 70px;
+}
+
+.title a{
+    color: #333;
+} */
+
+/* #section3 .best{
+    font-size: 2em;
+    font-family: "Staatliches", cursive;
+    margin-top: 150px;
+    text-align: center;
+    font-weight: 500;
+    stroke-width: 2;
+    text-transform: uppercase;
+    animation: stroke 7s infinite alternate;
+    position: absolute; 
+    width: 100%; height: 100%;
+    
+} */
+
+/* #section3 h1, #section5 h1, #section7 h1{
+    font-size: 2em;
+    margin-top: 150px;
+    text-align: center;
+    font-weight: 500;
+} */
+
+.choice>.w{
+    padding:10px 30px 10px 30px;
+    margin-right: 10px;
+    background-color: #ccc;
+    border-radius: 50px;
+}
+
+.choice>.m{
+    padding:10px 30px 10px 30px;
+    margin-right: 10px;
+    background-color: #ccc;
+    border-radius: 50px;
+}
+
+.w a, .m a{
+    color: #fff;
+}
+
+.choice li{
+    display: inline-block;
+}
+
+.w:hover{
+    background-color:rgb(33, 75, 62);
+}
+.m:hover{
+    background-color: rgb(33, 75, 62);
+}
+
+
+#section4 ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    width: 100%;
+}
+
+#section4 li{
+    flex: 0 0 22%;
+}
+
+#section4 li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box1{
+    background: url(../img/1.jpg);
+    background-size: cover;}
+
+.box1 img{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.box1:hover img{
+    opacity: 1;
+}
+
+.box1_2{
+    background: url(../img/2.jpg);
+    background-size: cover;}
+
+.box1_2 img{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.box1_2:hover img{
+    opacity: 1;
+}
+
+.box1_3{
+    background: url(../img/3.jpg);
+    background-size: cover;}
+
+.box1_3 img{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.box1_3:hover img{
+    opacity: 1;
+}
+
+.box1_4{
+    background: url(../img/4.jpg);
+    background-size: cover;}
+
+.box1_4 img{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.box1_4:hover img{
+    opacity: 1;
+}
+
+.text{
+    text-align: left;
+    font-size: 18px;
+    margin-top: 15px;
+
+}
+
+.text a{
+    color: #333;
+}
+
+
+#section6 ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+
+#section6 li{
+    flex: 0 0 22%;
+}
+
+#section6 li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#section6 img{
+    transform: translateY(0);
+    transition: transform 0.3s;
+}
+
+#section6 img:hover {
+    transform: translateY(-20px);
+}
+
+.more{
+    border: 1px solid rgb(33, 75, 62);
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    /* top: 50%;
+    left: 50%; */
+    position: relative;
+    /* transform: translate(-50%, -50%); */
+    line-height: 50px;
+    color:  rgb(33, 75, 62);
+    text-align: center;
+    margin: 100px auto;
+}
+
+.more:hover .water{
+    background-color:rgb(33, 75, 62);
+    bottom: 0;
+    top: 50px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    animation: fill 2s infinite;
+    -webkit-animation: fill 2s infinite;
+    color: #fff;
+}
+
+@-webkit-keyframes fill {
+    0% { top: 50px; }
+    60% { top: 0px; }
+    90% { top: 50px; }
+}
+
+@keyframes fill {
+    0% { top: 50px; }
+    60% { top: 0px; }
+    90% { top: 50px; }
+}
+
+
+/* .more{
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    margin: 100px auto;
+    border: 1px solid #000;
+    text-align: center;
+    position: relative;
+}
+
+.more span{
+    position: absolute;
+    background: rgb(33, 75, 62);
+}
+
+.more span:nth-child(1){
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 1px;
+    transition: width 0.1s;
+}
+
+.more span:nth-child(2){
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 0;
+    transition: height 0.1s linear 0.1s;
+}
+
+.more span:nth-child(3){
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    transition: height 0.1s linear 0.2s;
+}
+
+.more span:nth-child(4){
+    left: 0;
+    bottom: 0;
+    width: 1px;
+    height: 0;
+    transition: height 0.1s linear 0.3s;
+}
+
+
+.more:hover span:nth-child(1){
+    width: 100%;
+}
+
+.more:hover span:nth-child(2){
+    height: 100%;
+}
+
+.more:hover span:nth-child(3){
+    width: 100%;
+}
+
+.more:hover span:nth-child(4){
+    height: 100%;
+}  */
+
+/* footer 영역 높이 수정하고싶으면 요거수정*/
+#section7{
+    width: 100%;
+    margin-bottom: 10%;
+}
+#section7 ul{
+    display: flex;
+    margin-top: 70px;
+    
+}
+
+#section7 li{
+    width: 33.33%;
+}
+
+#section7 li img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+#section7 li:hover img{
+    opacity: 1;
+}
+
+#section7 .box3{
+    position: relative;
+}
+
+#section7 .blackbox{
+    background-color: #000;
+    width: 100%;
+    
+    
+}
+
+#section7 .text1{
+    opacity: 0.7;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    transform: translateY(-100%);
+    padding-top: 20px;   
+    cursor: pointer; 
+}
+
+#section7 .text1>a{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #333;
+    position: absolute;
+    transform: translate(-50%,20%);
+    cursor: pointer;
+}
+
+#section7 .text2{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    transform: translateY(-80%);
+    font-size: 1.2em;
+    padding-top: 30px;
+    cursor: pointer;
+    
+}
+
+#section7 .text2>a{
+    position: absolute;
+    transform: translate(-50%,30%);
+    color: #333;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#section7 .text3{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    transform: translateY(-80%);
+    font-size: 1.2em;
+    padding-top: 30px;
+    cursor: pointer;
+    
+}
+
+#section7 .text3>a{
+    position: absolute;
+    transform: translate(-50%,30%);
+    color: #333;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+
+
