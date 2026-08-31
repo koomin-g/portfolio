@@ -20,14 +20,14 @@ body {
 
     background: linear-gradient(
         to bottom,
-        #6f8f9e 0%,
-        #4d6f7d 25%,
-        #304d5b 50%,
-        #1b303c 75%,
-        #0b171f 100%
+
+    #638592 0%,
+    #4D6F7D 25%,
+    #304D5B 50%,
+    #18303C 75%,
+    #0B171F 100%
     );
 
-    font-family: ;
 }
 
 img {
@@ -151,10 +151,20 @@ section {
     align-items: center;
     position: relative;
     color: #fff;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 .section1-content {
+    position: absolute;
+    z-index: 2;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     text-align: center;
+    color: #fff;
 }
 
 .depth {
@@ -176,9 +186,64 @@ section {
     font-weight: 300;
 }
 
+.main-visual-01 {
+    position: relative;
+    width: 85%;
+    text-align: center;
+    margin: 50px auto 0;
 
+     /* 사진 가장자리를 자연스럽게 녹이기 */
+    -webkit-mask-image:
+        linear-gradient(to bottom,
+            transparent 0%,
+            #000 12%,
+            #000 85%,
+            transparent 100%
+        ),
+        linear-gradient(to right,
+            transparent 0%,
+            #000 8%,
+            #000 92%,
+            transparent 100%
+        );
 
+    -webkit-mask-composite: source-in;
+    mask-image:
+        linear-gradient(to bottom,
+            transparent 0%,
+            #000 12%,
+            #000 85%,
+            transparent 100%
+        ),
+        linear-gradient(to right,
+            transparent 0%,
+            #000 8%,
+            #000 92%,
+            transparent 100%
+        );
+}
 
+.main-visual-01 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(0.85);
+}
+
+.main-visual-01::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(
+        to bottom,
+        #6F8F9A 0%,
+        rgba(111, 143, 154, 0) 100%
+    );
+    z-index: 1;
+}
 
 
 /* section2 */
